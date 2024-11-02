@@ -1,0 +1,11 @@
+@import "./reset.css";
+@import "./main.css";
+@import "./media-queries.css";
+
+:root {
+    --font-family-primary: 'Montserrat', sans-serif;
+    --font-family-secondary: 'Fraunces', serif;
+
+    --font-weight-regular: 500;
+    --font-weight-bold: 700;
+}

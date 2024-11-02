@@ -1,0 +1,21 @@
+@media (max-width: 769px) {
+
+    .card {
+        flex-direction: column;
+        min-width: 343px;
+    }
+
+    .card__image img {
+        height: 250px;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .card__cat {
+        margin-bottom: 1rem;
+    }
+
+    .card__title {
+        margin-bottom: 1rem;
+    }
+}

@@ -96,6 +96,7 @@ main {
     border-radius: 0.8rem;
     padding: 1rem;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .card__btn::before {
@@ -106,4 +107,8 @@ main {
     width: 1rem;
     height: 1rem;
     margin-right: 0.5rem;
+}
+
+.card__btn:hover {
+    background-color: #132921;
 }
